@@ -1,0 +1,2509 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta name="description" content="LOTTE EATZ 페이지입니다">
+    <meta name="keywords" content="LOTTE, EATZ">
+    <title>LOTTE EATZ</title>
+
+    <!--제이쿼리-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!--파비콘-->
+    <link rel="apple-touch-icon-precomposed apple-touch-icon" href="img/apple-touch-icon-180x180-precomposed.png">
+    <link rel="shortcut icon" href="img/favicon_256x256.png">
+
+    <!--폰트-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR&family=Orbit&display=swap" rel="stylesheet">
+    
+    <!--메타태그-->
+    <meta property="og:title" content="LOTTE EATZ">
+    <meta property="og:descripttion" content="롯데리아, 엔제리너스, 크리스피크림 도넛 3개 브랜드의 배달, 주문, 이벤트를 한번에!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.lotteeatz.com">
+    <meta property="og:site_name" content="LOTTE EATZ">
+    <meta property="og:image" content="img/share.png">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.lotteeatz.com">
+    <meta name="twitter:title" content="LOTTE EATZ">
+    <meta name="twitter:description" content="롯데리아, 엔제리너스, 크리스피크림 도넛 3개 브랜드의 배달, 주문, 이벤트를 한번에!">
+    <meta name="twitter:image" content="img/share.png">
+
+</head>
+<body>    
+
+    <div class="body_wrap top_header">
+        <div id ="m_header">
+            <div class="m_header">
+                <a href="#" class="eatzmail">
+                    <i class="eatz"></i>
+                    <span>EATZ마일</span>
+                </a>
+                <div class="m_header_right">
+                    <a href="#" class="m_alarm">
+                        <i class="alarm"></i>
+                    </a>
+                    <a href="#" class="m_coupon">
+                        <i class="coupon"></i>
+                    </a>
+                    <a href="#" class="m_cart">
+                        <i class="cart"></i>
+                    </a>
+            </div><!--//m_header-->
+        </div><!--//m_header_right-->
+        
+        </div>  <!--//m_header-->  
+        
+        <header id="header">
+            <div class="container">
+                <div class="header">
+                    <div class="header_top">
+                        <div class="user">
+                            <i class="user_menu">
+                                <a href="#">로그인/회원가입</a>
+                            </i>
+                            <i class="user_menu">
+                                <a href="#">주문/예약 내역</a>
+                            </i>
+                            <i class="user_menu">
+                                <a href="#">매장찾기</a>
+                            </i>
+                        </div><!--//user-->
+                    </div><!--//header_top-->
+        
+                    <div class="header_bottom">
+                        <div class="header_logo">
+                            <a href="#">
+                                <img src="img/comm_header_logo.svg" alt="">
+                            </a>
+                        </div><!--//header_logo-->
+                        <div class="header_menu">
+                            <ul>
+                                <li class="menu_1">
+                                    <h1><a href="">브랜드</a></h1>
+                                    <ul class="submenu">
+                                        <li><a href="#">롯데리아</a></li>
+                                        <li><a href="#">엔제리너스</a></li>
+                                        <li><a href="#">크리스피크림</a></li>
+                                        <li><a href="#">플레:이팅</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_2">
+                                    <h1><a href="">이벤트</a></h1>
+                                    <ul class="submenu">
+                                        <li><a href="#">이벤트</a></li>
+                                        <li><a href="#">룰렛</a></li>
+                                        <li><a href="#">EATZ TV</a></li>
+                                        <li><a href="#">출석체크</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_3">
+                                    <h1><a href="">스토어</a></h1>
+                                    <ul class="submenu">
+                                        <li><a href="#">전체</a></li>
+                                        <li><a href="#">쿠폰</a></li>
+                                        <li><a href="#">EATZ카드</a></li>
+                                        <li><a href="#">쇼핑</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_4">
+                                    <h1><a href="">고객지원</a></h1>
+                                    <ul class="submenu">
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">설문조사</a></li>
+                                        <li><a href="#">고객의 소리</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!--//header_menu-->
+                        <div class="header_user">
+                            <ul class="user_page">
+                                <li class="user_icon1"><a href="#" class="page1">장바구니</a></li>
+                                <li class="user_icon2"><a href="#" class="page2">마이페이지</a></li>                                                    
+                                <a href="#" class="page3">
+                                    <li class="user_icon3"></li>
+                                    <li class="user_icon4">
+                                        주문하기
+                                    </li>
+                                </a>
+                                
+                            </ul>
+                        </div><!--//header_user-->
+                    </div><!--//header_bottom-->
+        
+                </div><!--//header-->
+            </div><!--//container-->
+        
+            <div class="header_submenu">
+            </div><!--//header_submenu-->
+            
+          
+        </header><!--//header-->
+        
+        
+        <section id="section">
+            <div class="section">
+                <div class="container">
+                    <div class="con_center">
+                        <div class="con_main">
+                            <div class="con_swiper">
+                                  <!-- Swiper -->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231101115143519_4.jpg" alt="잇츠데이" data-type="pc">
+                                            <img src="img/20231101115143548_7.jpg" alt="잇츠데이" data-type="mobile">
+                                            <span>잇츠데이</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231121103614965_4.jpg" alt="골드도넛" data-type="pc">
+                                            <img src="img/2023112110361512_2.jpg" alt="골드도넛" data-type="mobile">
+                                            <span>리아데이</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231101113723832_5.jpg" alt="할미마음" data-type="pc">
+                                            <img src="img/2023103119065678_8.jpg" alt="할미마음" data-type="mobile">
+                                            <span>할미마음</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/2023110111095451_2.jpg" alt="gift_set" data-type="pc">
+                                            <img src="img/2023110111095486_6.jpg" alt="gift_set" data-type="mobile">
+                                            <span>gift_set</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231017174314359_4.jpg" alt="명작반미" data-type="pc">
+                                            <img src="img/20231017174314390_6.jpg" alt="명작반미" data-type="mobile">
+                                            <span>명작반미</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231107180637849_3.jpg" alt="2000원_할인" data-type="pc">
+                                            <img src="img/20231107180637888_7.jpg" alt="2000원_할인" data-type="mobile">
+                                            <span>2000원_할인</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231107180739898_6.jpg" alt="3000원_할인" data-type="pc">
+                                            <img src="img/20231107180739929_9.jpg" alt="3000원_할인" data-type="mobile">
+                                            <span>3000원_할인</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/2023101910110523_6.jpg" alt="더즌_할인" data-type="pc">
+                                            <img src="img/2023101910110557_5.jpg" alt="더즌_할인" data-type="mobile">
+                                            <span>더즌_할인</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20231017174130245_0.jpg" alt="더즌_할인" data-type="pc">
+                                            <img src="img/20231017174034678_9.jpg" alt="더즌_할인" data-type="mobile">
+                                            <span>더즌_할인</span>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="#">
+                                            <img src="img/20230711134430748_9.jpg" alt="글레이즈" data-type="pc">
+                                            <img src="img/20230711134430795_6.jpg" alt="글레이즈" data-type="mobile">
+                                            <span>글레이즈</span>
+                                        </a>
+                                    </div>
+                                    </div>                       
+                                    <div class="swiper-pag-wrap">
+                                        <div class="swiper-pag">
+                                            <div class="swiper-pagination"></div>     
+                                            <div class="swiper-allview">
+                                                <button class="btn_view">
+                                                    <span>전체보기</span>
+                                                </button>
+                                            </div>     
+                                        </div><!--//swiper-pag-->
+                                    </div><!--//swiper-pag-wrap-->
+                                                                           
+                                  </div><!--//swiper mySwiper-->
+                                  <div class="swiper-button-next"></div>
+                                  <div class="swiper-button-prev"></div>
+        
+                                  <!-- event_box -->
+                                  <div class="event_box" data-type="mobile">
+                                    <div class="box_list">
+                                        <div class="box angelinus active">
+                                            <i class="box_icon"></i>
+                                            <div class="box_span">엔제리너스</div>
+                                            <p>등급혜택을 받아보세요!</p>
+                                        </div>
+                                        <div class="box krispy">
+                                            <i class="box_icon"></i>
+                                            <div class="box_span">크리스피 크림</div>
+                                            <p>등급혜택을 받아보세요!</p>
+                                        </div>
+                                        <div class="box rotteria">
+                                            <i class="box_icon"></i>
+                                            <div class="box_span">롯데리아</div>
+                                            <p>등급혜택을 받아보세요!</p>
+                                        </div>
+                                    </div><!--//box_list-->
+                                </div><!--//event_box-->  
+        
+                            </div><!--//con_swiper-->
+                        </div><!--//con_main-->
+                        
+                        <div class="con_side"> 
+                            <div class="con_address">
+                                <div class="con_left">
+                                    <div class="con_add">
+                                        <i class="con_icon"></i><!--//con_icon-->
+                                        <span>주소를 설정해 주세요!</span>
+                                    </div><!--//con_add-->
+                                </div><!--//con_left-->
+                                <div class="con_right">
+                                    <button class="con_button">
+                                        <span>주소설정</span>
+                                    </button>                           
+                                </div><!--//con_right-->
+                            </div><!--//con_address-->
+        
+                            <div class="conside_wrap"><!--배달픽업매장swiper-->
+                                <div class="conwrap_left"><!--왼쪽-->
+                                    <div class="left_wrap">
+                                        <div class="conwrap_delivery conwrap">
+                                            <a href="#" class="a_delivery active"> 
+                                                <i class="delivery_icon"></i>
+                                                <span>배달</span>
+                                            </a>
+                                        </div><!--//conwrap_delivery-->
+                                        <div class="conwrap_pickup conwrap">
+                                            <a href="#" class="a_pickup">
+                                                <i class="pickup_icon"></i>
+                                                <span>픽업</span>
+                                            </a>
+                                        </div><!--//conwrap_pickup-->
+                                    </div><!--//left_wrap-->                          
+                                    <div class="conwrap_find">
+                                        <a href="#" class="a_find">
+                                            <span>매장찾기</span>
+                                        </a>
+                                    </div><!--//conwrap_find-->
+                                </div><!--//conwrap_left--><!--왼쪽-->
+        
+                                <div class="conwrap_right"><!--오른쪽-->
+                                    <div class="right_swiper">
+                                        <!-- Swiper -->
+                                        <div class="swiper secondSwiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="box_store">
+                                                        <div class="box_img">
+                                                            <img src="img/img_store_lotteria.png" alt="lotterai">
+                                                        </div><!--//box_img-->
+                                                        <div class="box_name">
+                                                            <span>롯데리아</span>
+                                                            <p>바로가기</p>
+                                                        </div><!--//box_name-->
+                                                    </div><!--//box_store-->
+                                                    <a href="#" class="box_link"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="box_store">
+                                                        <div class="box_img">
+                                                            <img src="img/img_store_angelinus.png" alt="angelinus">
+                                                        </div><!--//box_img-->
+                                                        <div class="box_name">
+                                                            <span>엔제리너스</span>
+                                                            <p>바로가기</p>
+                                                        </div><!--//box_name-->
+                                                    </div><!--//box_store-->
+                                                    <a href="#" class="box_link"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="box_store">
+                                                        <div class="box_img">
+                                                            <img src="img/img_store_krispy.png" alt="krispy">
+                                                        </div><!--//box_img-->
+                                                        <div class="box_name">
+                                                            <span>크리스피크림</span>
+                                                            <p>바로가기</p>
+                                                        </div><!--//box_name-->
+                                                    </div><!--//box_store-->
+                                                    <a href="#" class="box_link"></a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="box_store">
+                                                        <div class="box_img">
+                                                            <img src="img/img_store_plating.png" alt="plating">
+                                                        </div><!--//box_img-->
+                                                        <div class="box_name">
+                                                            <span>플레:이팅</span>
+                                                            <p>바로가기</p>
+                                                        </div><!--//box_name-->
+                                                    </div><!--//box_store-->
+                                                    <a href="#" class="box_link"></a>
+                                                </div>                                
+                                            </div><!--//swiper-wrapper-->                                   
+                                        </div><!--//secondSwiper-->
+                                        <div class="swiper-button-next swiper-button-next-second"></div>
+                                        <div class="swiper-button-prev swiper-button-prev-second"></div>
+                                    </div><!--//con_swiper-->
+                                   
+                                </div><!--//conwrap_right--><!--오른쪽-->
+                            </div><!--//conside_wrap-->
+        
+                        </div><!--//con_side-->
+        
+                        <div class="con_box">
+                            <div class="box_wrap">
+                                <div class="swiper box1_Swiper">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36.png" alt="img">
+                                            </div><!--//img_box-->
+                                            <span>쿠폰</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36 (1).png" alt="img">
+                                            </div><!--//img_box-->
+                                            <span>이벤트</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36 (2).png" alt="img">
+                                            </div><!--//img_box-->
+                                            <span>제품교환권</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36 (3).png" alt="img">
+                                            </div><!--//img_box-->
+                                            <span>MD</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36 (4).png" alt="img">
+                                            </div><!--//img_box-->
+                                            <span>스탬프</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36 (5).png" alt="img">
+                                            </div><!--//img_box-->
+                                            <span>EATZ카드</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <div class="swiper_box">
+                                            <div class="img_box">
+                                                <img src="img/x36 (6).png" alt="#">
+                                            </div><!--//img_box-->
+                                            <span>나의 매장</span>
+                                        </div><!--//swiper_box-->
+                                        <a href="#" class="box_link"></a>
+                                      </div>                              
+                                    </div><!--//swiper-wrapper-->                           
+                                  </div><!--//box1_Swiper-->
+                                  <div class="swiper-button-next swiper-button-next-box1"></div>
+                                  <div class="swiper-button-prev swiper-button-prev-box1"></div>
+                            </div><!--//box_wrap-->                 
+                        </div><!--//con_box 1-->
+        
+                        <div class="con_box">
+                            <div class="couppon_con">
+                                <div class="couppon_wrap">
+                                    <p>바로 받는 <span>쿠폰</span></p>                                    
+                                </div><!--//box_wrap-->
+                                <div class="couppon_show">
+                                    <a href="#"><span class="show">더보기</span></a>   
+                                </div><!--//couppon_show-->
+                            </div><!--//couppon_con-->    
+        
+                            <div class="couppon"><!--swiper-->
+                                <div class="couppon_box">
+                                    <div class="swiper box2_Swiper">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>바질쉬림프반미SET</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>12,400원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">31%</span>
+                                                        <span class="number2">8,500원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>크랩&쉬림프반미SET</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>12,600원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">33%</span>
+                                                        <span class="number2">8,500원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                     
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>초콜릿케이트SET</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>12,100원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">30%</span>
+                                                        <span class="number2">8,500원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                      
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>할米쉐이크</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>6,800원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">28%</span>
+                                                        <span class="number2">4,900원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                      
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>할米밤라떼</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>6,300원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">29%</span>
+                                                        <span class="number2">4,500원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                      
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>초콜릿라떼</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>5,900원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">27%</span>
+                                                        <span class="number2">4,300원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                     
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>루비자몽티</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>5,500원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">29%</span>
+                                                        <span class="number2">3,900원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                      
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>허니레몬티</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>5,500원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">29%</span>
+                                                        <span class="number2">3,900원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                     
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>고흥유자티</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>5,500원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">29%</span>
+                                                        <span class="number2">3,900원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                     
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <div class="coupponbox_wrap">
+                                                <div class="couppon_img">
+                                                    <i class="img_box"></i>
+                                                </div><!--//box_img-->
+                                                <div class="couppon_down">
+                                                    <i class="down_img"></i>
+                                                </div><!--//couppon_down-->
+                                                <div class="couppon_info">
+                                                    <div class="couppon_brand">
+                                                        <span>엔제리너스</span>
+                                                    </div>
+                                                    <div class="couppon_name">
+                                                        <span>[이달의쿠폰]</span>
+                                                        <span>돌체라떼</span>
+                                                    </div>
+                                                    <div class="couupon_price">
+                                                        <p>6,000원</p>
+                                                    </div>
+                                                    <div class="couppon_discount">
+                                                        <span class="number">28%</span>
+                                                        <span class="number2">4,300원</span>
+                                                    </div>
+                                                    <div class="couppon_pickup">
+                                                        <span>픽업</span>
+                                                    </div>
+                                                </div><!--//couppon_info-->                                      
+                                            </div><!--//couponbox_wrap-->
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                        </div>                              
+                                      </div><!--//box2_Swiper-->
+                                    <div class="swiper-button-next swiper-button-next-box2"></div>
+                                    <div class="swiper-button-prev swiper-button-prev-box2"></div> 
+                                      
+                                </div><!--//couppon_box-->
+                            </div><!--//couppon-->     
+                        </div><!--//con_box2-->
+        
+                        <div class="con_box">
+                            <div class="con_div">
+                                <div class="con_tit">
+                                    <span>흐린 날씨니까~</span>
+                                    <p>잇츠 어때</p>
+                                </div><!--//con_tit-->
+        
+                                <div class="box_swiper">
+                                    <div class="swiper box3_Swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (1).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>롯데리아</p>
+                                                    <span>데리버거</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (2).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>롯데리아</p>
+                                                    <span>통오징어링</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (3).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>엔제리너스</p>
+                                                    <span>아메리카노</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (3).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>엔제리너스</p>
+                                                    <span>아메리카노(시트러스)</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (3).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>엔제리너스</p>
+                                                    <span>디카페인 아메리카노</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (4).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>엔제리너스</p>
+                                                    <span>오리지널불고기</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (5).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>엔제리너스</p>
+                                                    <span>햄치즈 토스트</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (5).png" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>엔제리너스</p>
+                                                    <span>에그햄치즈 토스트</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144.jpg" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>크리스피크림 도넛</p>
+                                                    <span>오리지널 글레이즈드</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                            <div class="swiper-slide info-fit">
+                                                <div class="slide_img">
+                                                    <img src="img/x144 (1).jpg" alt="img">
+                                                </div><!--//slide_img-->
+                                                <div class="img_info">
+                                                    <p>크리스피크림 도넛</p>
+                                                    <span>초콜릿 아이스드 글레이즈드</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+                                        </div>                               
+                                    </div><!--//box3_Swiper-->
+                                    <div class="swiper-button-next swiper-button-next-box3"></div>
+                                    <div class="swiper-button-prev swiper-button-prev-box3"></div> 
+                                </div><!--//box_swiper-->
+        
+                                <div class="img_back"></div><!--//img_back-->
+                            </div><!--//con_div-->
+                        </div><!--//con_box3-->
+        
+        
+                        <div class="con_box" data-type="mobile">
+                            <div class="con_div box4">
+                                <div class="con_tit">
+                                    <span>브랜드</span><p>바로가기</p>
+                                </div><!--//con_tit-->
+                                <div class="con_brand brand_wrap">
+                                    <div class="brand_div">
+                                        <a href="#" class="brand_krispy brand_img">
+                                            <span class="name">크리스피크림 도넛</span>
+                                        </a>
+                                    </div>
+                                    <div class="brand_div">
+                                        <a href="#" class="brand_plating brand_img">
+                                            <span class="name">플레:이팅</span>
+                                        </a>
+                                    </div>
+                                    <div class="brand_div">
+                                        <a href="#" class="brand_anglinus brand_img">
+                                            <span class="name">엔제리너스</span>
+                                        </a>
+                                    </div>
+                                    <div class="brand_div">
+                                        <a href="#" class="brand_rotte brand_img">
+                                            <span class="name">롯데리아</span>
+                                        </a>
+                                    </div>
+                                </div><!--//con_brand brand_wrap-->
+                            </div><!--//con_div-->
+                        </div><!--//con_box4-->
+        
+                        <div class="con_box">
+                            <div class="con_div box5">
+                                <div class="con_title">
+                                    <div class="con_tit">
+                                        <span>브랜드별</span><span class="bold">인기메뉴</span>                               
+                                    </div><!--//con_tit-->
+                                    <div class="con_right">
+                                        <a href="#">
+                                            <span class="show">매장주문</span>
+                                        </a>            
+                                    </div><!--//con_right-->
+                                </div><!--//con_title-->
+                                
+                                <ul class="con_sub">
+                                    <li class="con_submenu active"><a href="#">롯데리아</a></li>
+                                    <li class="con_submenu"><a href="#">엔제리너스</a></li>
+                                    <li class="con_submenu"><a href="#">크리스피크림 도넛</a></li>
+                                    <li class="con_submenu"><a href="#">플레:이팅</a></li>
+                                </ul><!--//con_sub-->
+        
+                                <div class="brand_menu">
+                                    <div class="brand_list">
+                                        <div class="list_wrap"><!--롯데리아-->
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173.png" alt="img">
+                                                    <div class="best">
+                                                        <span class="text">BEST</span>
+                                                    </div><!--//best-->
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        불고기버거
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">4,700</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div><!--//brand_one 롯데리아-->
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (1).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        치즈스틱
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">2,400</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div><!--//brand_one 롯데리아-->
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (2).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        새우버거
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">4,700</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div><!--//brand_one 롯데리아-->
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (3).png" alt="img">
+                                                    <div class="order">
+                                                        <span>재주문1위</span>
+                                                    </div><!--//order-->
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        모짜렐라 인 더 버거 베이컨
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">7,400</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div><!--//brand_one 롯데리아-->
+        
+                                            
+                                        </div><!--//list_wrap-->
+                                        <div class="menu_show">    
+                                            <div class="brand_line">
+                                                <a href="#">
+                                                    <span class="text">
+                                                    <span class="rd_rotteria">롯데리아</span>메뉴 보러가기</span>
+                                                </a> 
+                                            </div><!--//brand_line-->                                                                                           
+                                        </div><!--//menu_show-->
+                                    </div><!--//brand_list-->
+                                    
+                                    <div class="brand_list">
+                                        <div class="list_wrap"><!--엔제리너스-->
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (4).png" alt="img">
+                                                    <div class="best">
+                                                    </div><!--//best-->
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        크랩&쉬림프
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">7,600</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (5).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        아메리카노
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">4,500</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (6).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        오리지널불고기
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">7,400</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (7).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        카페라떼
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">5,000</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>                                  
+                                        </div><!--//list_wrap-->
+                                        <div class="menu_show">    
+                                            <div class="brand_line">
+                                                <a href="#">
+                                                    <span class="text">
+                                                    <span class="rd_anglinus">엔제리너스</span>메뉴 보러가기</span>
+                                                </a> 
+                                            </div><!--//brand_line-->                                                                                           
+                                        </div><!--//menu_show-->
+                                    </div><!--//brand_list-->  
+                                    
+                                    <div class="brand_list">
+                                        <div class="list_wrap"><!--크리스피크림 도넛-->
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (8).png" alt="img">
+                                                    <div class="best">
+                                                    </div><!--//best-->
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        스노위 홀리데이 더즌
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">22,500</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (9).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        스노우 산타
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">3,200</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (10).png" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        오리지널 글레이즈드 더즌
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">16,000</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173.jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                         오리지널 글레이즈드 하프더즌
+                                                    </div><!--//p_name-->
+                                                    <div class="p_price">
+                                                        <span class="number">10,200</span>
+                                                        <span class="won">원</span>
+                                                    </div><!--//p_price-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            
+                                        </div><!--//list_wrap-->
+                                        <div class="menu_show">    
+                                            <div class="brand_line">
+                                                <a href="#">
+                                                    <span class="text">
+                                                    <span class="rd_krispy">크리스피크림 도넛</span>메뉴 보러가기</span>
+                                                </a> 
+                                            </div><!--//brand_line-->                                                                                           
+                                        </div><!--//menu_show-->
+                                    </div><!--//brand_list-->  
+                                        
+                                    <div class="brand_list">
+                                        <div class="list_wrap"><!--플레:이팅-->
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (1).jpg" alt="img">
+                                                    <div class="best">
+                                                    </div><!--//best-->
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        공항 ㆍ역사에서 만나는 미식 라운지
+                                                    </div><!--//p_name-->                                          
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (2).jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        병원에서 만나는 미식 테이블
+                                                    </div><!--//p_name-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (3).jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                        레저시설에서 만나는 미식 스테이지
+                                                    </div><!--//p_name-->
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>
+        
+                                            <div class="brand_one">
+                                                <div class="img_box">
+                                                    <img src="img/x173 (4).jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="brand_info">
+                                                    <div class="p_name">
+                                                         맛에 다함이 없다! 일본정통라멘
+                                                    </div><!--//p_name-->                                       
+                                                </div><!--//brand_info-->
+                                                <a href="#" class="box_link"></a>
+                                            </div>                   
+                                        </div><!--//list_wrap-->
+                                        <div class="menu_show">    
+                                            <div class="brand_line">
+                                                <a href="#">
+                                                    <span class="text">
+                                                    <span class="rd_playting">플레:이팅</span>메뉴 보러가기</span>
+                                                </a> 
+                                            </div><!--//brand_line-->                                                                                           
+                                        </div><!--//menu_show-->
+                                    </div><!--//brand_list-->
+        
+                                </div><!--//brand_menu-->
+        
+                            </div><!--//con_div-->
+                        </div><!--//con_box5-->
+        
+                        <div class="con_box">
+                            <div class="con_div box6">
+                                <div class="con_title">
+                                    <div class="con_tit">
+                                        <span>집으로 받는</span><span class="bold">잇츠 MD</span>
+                                    </div><!--//con_tit-->
+                                    <div class="con_right">
+                                        <a href="#">
+                                            <span class="show">더보기</span>
+                                        </a>
+                                    </div><!--//con_right-->
+                                </div><!--//con_title-->
+        
+                                <ul class="con_sub">
+                                    <li class="con_submenu active"><a href="#">크리스피크림 도넛</a></li>
+                                    <li class="con_submenu"><a href="#">엔제리너스</a></li>
+                                    <li class="con_submenu"><a href="#">롯데리아</a></li>
+                                </ul><!--//con_sub-->
+        
+                                <div class="box_swiper krispy"><!--크리스피크림 도넛-->
+                                    <div class="swiper box5 box5-1_Swiper">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize.png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">시그니처 머그(S) 기프트 세트</div>
+                                                <div class="img_discount">
+                                                    <span class="number">20,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">5%</span>
+                                                    <span class="number">19,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>                                                                      
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (1).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">비비드 그린 시그니처 머그(M)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">7,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>                         
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize.jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">콰트로캔틴 메칼 그린</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">34,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->
+                                            <a href="#" class="box_link"></a>   
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (2).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">비비드 그린 시그니처 머그(S)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">5,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->   
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (1).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">콰트로캔틴 메탈 레드</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">34,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->  
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (2).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">도넛 플레인 블록</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">35,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->  
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (3).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">비비드 레드 시그니처 머그(M)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">7,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->  
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (4).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">알파인 플라스크 버건디</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">32,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->  
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (3).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">워터저크 디스펜서 딥그린</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">35,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->  
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (5).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">비비드 레드 시그니처 머그(S)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">5,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info-->  
+                                            <a href="#" class="box_link"></a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-button-next swiper-button-next-krispybox6"></div>
+                                      <div class="swiper-button-prev swiper-button-prev-krispybox6"></div>
+                                </div><!--//box_swiper-->
+                                
+                                <div class="box_swiper anglinus"><!--엔제리너스-->
+                                    <div class="swiper box5 box5-2_Swiper">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (6).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">리유저블컵</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">7,500</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>  
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (4).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">마시마로 스텐컵</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">12,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>  
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (5).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">코베아 하드캐리백</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">38,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>  
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (7).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">아소부 얼티밋머그(화이트)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">24,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>  
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (6).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">코베아 침낭</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">46,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>  
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (8).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">아소부 얼티밋 머그(블랙)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">46,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (9).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">아소부 오아시스 텀블러(화이트)</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">29,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (10).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">버티컬 머그</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">12,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (11).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">인홀더 스텐텀블러</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">20,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (12).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">에그쉘 머그</div>                                       
+                                                <div class="img_price">
+                                                    <span class="number">12,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+                                        </div>                               
+                                      </div>
+                                      <div class="swiper-button-next swiper-button-next-anglinusbox6"></div>
+                                      <div class="swiper-button-prev swiper-button-prev-anglinusbox6"></div>
+                                </div><!--//box_swiper-->
+        
+                                <div class="box_swiper rotteria"><!--롯데리아-->
+                                    <div class="swiper box5 box5-3_Swiper">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (13).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">1만원권 + 포근하게 꼬옥, 치즈스틱 러그(꼬따꼬뜨플래닛X롯데리아)</div>
+                                                <div class="img_discount">
+                                                    <span class="number">30,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">17%</span>
+                                                    <span class="number">25,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>    
+                                          </div>
+                                          
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (7).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">1만원권 + 롯데자이언츠X롯데리아</div>
+                                                <div class="img_discount">
+                                                    <span class="number">50,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">21%</span>
+                                                    <span class="number">39,500</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>                                      
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (14).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">롯데리아 미니매장</div>
+                                                <div class="img_discount">
+                                                    <span class="number">29,500</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">8%</span>
+                                                    <span class="number">27,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>                                      
+                                          </div>
+                                          
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (8).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">1만원권 + 보고있어도 버거싶은 너와, 브런치볼 3종 세트 (롯데리아X마이버디)</div>
+                                                <div class="img_discount">
+                                                    <span class="number">30,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">17%</span>
+                                                    <span class="number">25,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a>  
+                                          </div>
+                                          
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (9).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">보고있어도 버거싶은 너와, 브런치볼 3종 세트 (롯데리아X마이버디)</div>
+                                                <div class="img_discount">
+                                                    <span class="number">20,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">10%</span>
+                                                    <span class="number">18,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (10).jpg" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">롯데자이언츠X롯데리아 콜라보 레디백 세트</div>
+                                                <div class="img_discount">
+                                                    <span class="number">40,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">22%</span>
+                                                    <span class="number">31,200</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+        
+                                          <div class="swiper-slide info-fit">
+                                            <div class="slide_img">
+                                                <img src="img/optimize (15).png" alt="img">
+                                            </div><!--//slide_img-->
+                                            <div class="img_info">
+                                                <div class="img_name">포근하게 꼬옥, 치즈스틱 러그 (꼬따꼬뜨플래닛X롯데리아)</div>
+                                                <div class="img_discount">
+                                                    <span class="number">20,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_discount-->
+                                                <div class="img_price">
+                                                    <span class="red">20%</span>
+                                                    <span class="number">16,000</span>
+                                                    <span class="won">원</span>
+                                                </div><!--//img_price-->
+                                            </div><!--//img_info--> 
+                                            <a href="#" class="box_link"></a> 
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="swiper-button-next swiper-button-next-rotteriabox6"></div>
+                                      <div class="swiper-button-prev swiper-button-prev-rotteriabox6"></div>
+                                </div><!--//box_swiper-->
+        
+                            </div><!--//con_div-->
+                        </div><!--//con_box6-->
+        
+                        <div class="con_box"> 
+                            <div class="con_div box7">
+                                <div class="con_title">
+                                    <div class="con_tit">
+                                        <span>혜택이 쏟아지는</span><span class="bold">이벤트</span>
+                                    </div><!--//con_tit-->
+                                    <div class="con_right">
+                                        <a href="#">
+                                            <span class="show">더보기</span>
+                                        </a>
+                                    </div><!--//con_right-->
+                                </div><!--//con_title-->
+                            
+                                <div class="box_swiper">
+                                    <div class="swiper box7_Swiper">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide box7">
+                                            <div class="img_box">
+                                                <img src="img/optimize (20).jpg" alt="img">
+                                            </div><!--//img_box-->
+                                            <div class="img_info">
+                                                <div class="brand">
+                                                    <div class="span anglinus">
+                                                        <span class="span_anglinus">엔제리너스</span>
+                                                    </div>
+                                                </div>
+                                                <div class="event">
+                                                    <span>12월 엔제리너스의 이달의쿠폰</span>
+                                                </div>
+                                                <div class="date">
+                                                    <span>2023.12.01 ~ 2023.12.31</span>
+                                                </div>
+                                            </div><!--//img_info-->
+                                          </div>
+                                
+                                          <div class="swiper-slide box7">
+                                            <div class="img_box">
+                                                <img src="img/optimize (16).jpg" alt="img">
+                                            </div><!--//img_box-->
+                                            <div class="img_info">
+                                                <div class="brand">
+                                                    <div class="span krispy">
+                                                        <span class="span_krispy">크리스피크림 도넛</span>                                               
+                                                    </div>   
+                                                    <div class="option">
+                                                        <span>배달+픽업+매장</span>
+                                                    </div><!--//option-->                                         
+                                                </div>
+                                                <div class="event">
+                                                    <span>스노위 홀리데이 신제품 출시</span>
+                                                </div>
+                                                <div class="date">
+                                                    <span>2023.12.01 ~ 2023.12.29</span>
+                                                </div>
+                                            </div><!--//img_info-->
+                                          </div>
+                                          
+                                          <div class="swiper-slide box7">
+                                            <div class="img_box">
+                                                <img src="img/optimize (17).jpg" alt="img">
+                                            </div><!--//img_box-->
+                                            <div class="img_info">
+                                                <div class="brand">
+                                                    <div class="span krispy">
+                                                        <span class="span_krispy">크리스피크림 도넛</span>                                               
+                                                    </div>   
+                                                    <div class="option">
+                                                        <span>픽업+매장</span>
+                                                    </div><!--//option-->                                         
+                                                </div>
+                                                <div class="event">
+                                                    <span>스노위 홀리데이 신제품 더즌 할인</span>
+                                                </div>
+                                                <div class="date">
+                                                    <span>2023.12.01 ~ 2023.12.22</span>
+                                                </div>
+                                            </div><!--//img_info-->
+                                          </div>
+                                
+                                          <div class="swiper-slide box7">
+                                            <div class="img_box">
+                                                <img src="img/optimize (18).jpg" alt="img">
+                                            </div><!--//img_box-->
+                                            <div class="img_info">
+                                                <div class="brand">
+                                                    <div class="span rotteria">
+                                                        <span class="span_rotteria">롯데리아</span>                                               
+                                                    </div>                                          
+                                                </div>
+                                                <div class="event">
+                                                    <span>12월 타임세일! 새우버거, 통어징어링 할인</span>
+                                                </div>
+                                                <div class="date">
+                                                    <span>2023.12.06 ~ 2023.12.19</span>
+                                                </div>
+                                            </div><!--//img_info-->
+                                          </div>
+                                
+                                          <div class="swiper-slide box7">
+                                            <div class="img_box">
+                                                <img src="img/optimize (19).jpg" alt="img">
+                                            </div><!--//img_box-->
+                                            <div class="img_info">
+                                                <div class="brand">
+                                                    <div class="span rotteria">
+                                                        <span class="span_rotteria">롯데리아</span>                                               
+                                                    </div>   
+                                                    <div class="option">
+                                                        <span>픽업+매장</span>
+                                                    </div><!--//option-->                                         
+                                                </div>
+                                                <div class="event">
+                                                    <span>12월 롯데리아 이달의 쿠폰!</span>
+                                                </div>
+                                                <div class="date">
+                                                    <span>2023.12.01 ~ 2023.12.31</span>
+                                                </div>
+                                            </div><!--//img_info-->
+                                          </div>                       
+                                          </div><!--//swiper-wrapper-->
+                                        </div>  <!--//box7_Swiper-->  
+                                        <div class="swiper-button-next swiper-button-next-box7"></div>
+                                        <div class="swiper-button-prev swiper-button-prev-box7"></div>                            
+                                  </div><!--//box_swiper-->                  
+                            </div><!--//con_div-->
+                        </div><!--//con_box7-->
+                        
+        
+                        <div class="con_box">
+                            <div class="con_div box8">
+                                <div class="con_tv">
+                                    <div class="con_title">
+                                        <div class="con_tit">
+                                            <span>집 - 중</span><span class="yellow">EATZ TV</span>
+                                        </div><!--//con_tit-->
+                                        <div class="con_right">
+                                            <a href="#">
+                                                <span class="show">더보기</span>
+                                            </a>
+                                        </div><!--//con_right-->
+                                    </div><!--//con_title-->
+        
+                                    <div class="tv_swiper"><!--swiper-->
+                                        <div class="swiper box8_Swiper">
+                                            <div class="swiper-wrapper">
+                                              <div class="swiper-slide box8">
+                                                <div class="img_box">
+                                                    <img src="img/maxresdefault.jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="img_info">
+                                                    <span class="tit">CC의 결말</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                              </div>
+        
+                                              <div class="swiper-slide box8">
+                                                <div class="img_box">
+                                                    <img src="img/mqdefault.jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="img_info">
+                                                    <span class="tit">우리 친구 그만하자</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                              </div>
+        
+                                              <div class="swiper-slide box8">
+                                                <div class="img_box">
+                                                    <img src="img/maxresdefault (1).jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="img_info">
+                                                    <span class="tit">박세미가 찾은 시민들의 '롯데리아 최애버거'는?</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                              </div>
+        
+                                              <div class="swiper-slide box8">
+                                                <div class="img_box">
+                                                    <img src="img/maxresdefault (2).jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="img_info">
+                                                    <span class="tit">사랑은 이랬다 저랬다 하는거야</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                              </div>
+        
+                                              <div class="swiper-slide box8">
+                                                <div class="img_box">
+                                                    <img src="img/maxresdefault (3).jpg" alt="img">
+                                                </div><!--//img_box-->
+                                                <div class="img_info">
+                                                    <span class="tit">넌 사랑이 쉬워?</span>
+                                                </div><!--//img_info-->
+                                                <a href="#" class="box_link"></a>
+                                              </div>                                                                      
+                                            </div><!--//swiper-wrapper-->
+                                        </div><!--//swiper box8_Swiper-->
+                                        <div class="pag pgbox8">
+                                            <div class="box-pag">
+                                                <div class="swiper-pagination pgbox8"></div>
+                                            </div><!--//box-pag-->
+                                          </div><!--//pag pgbox8-->
+                                        <div class="swiper-button-next swiper-button-next-box8"></div>
+                                        <div class="swiper-button-prev swiper-button-prev-box8"></div> 
+                                    </div><!--//tv_swiper-->
+        
+                                    <div class="back_img"></div>
+                                </div><!--//con_tv-->                       
+                            </div><!--//con_div-->
+                        </div><!--//con_box8-->
+                    </div><!--//con_center-->
+        
+                    <div class="con_aside"><!--con_side-->
+                        <div class="aside_wrap">
+                            <div class="aside_tit">
+                                <p>고객님,</p>
+                                <p>오늘도<span class="tit_eatz">EATZ</span>하세요!</p>
+                            </div><!--//aside_tit-->
+                            <div class="aside_subtit">
+                                <a href="#">
+                                    <p>EATZ마일을 확인해 보세요.</p>
+                                </a>                        
+                            </div><!--//aside_subtit-->
+         
+                            <div class="event_box" data-type="pc">
+                                <div class="box_list">
+                                    <div class="box angelinus active">
+                                        <i class="box_icon"></i>
+                                        <div class="box_span">엔제리너스</div>
+                                        <p>등급혜택을 받아보세요!</p>
+                                    </div>
+                                    <div class="box krispy">
+                                        <i class="box_icon"></i>
+                                        <div class="box_span">크리스피 크림</div>
+                                        <p>등급혜택을 받아보세요!</p>
+                                    </div>
+                                    <div class="box rotteria">
+                                        <i class="box_icon"></i>
+                                        <div class="box_span">롯데리아</div>
+                                        <p>등급혜택을 받아보세요!</p>
+                                    </div>
+                                </div><!--//box_list-->
+                            </div><!--//event_box-->  
+        
+                            <div class="brand_tit">
+                                <span>브랜드</span> 바로가기
+                            </div><!--//brand_tit-->
+        
+                            <div class="brand_wrap">
+                                <div class="brand_div">
+                                    <a href="#" class="brand_rotte brand_img">
+                                        <span class="name">롯데리아</span>
+                                    </a>
+                                </div>
+                                <div class="brand_div">
+                                    <a href="#" class="brand_krispy brand_img">
+                                        <span class="name">크리스피크림 도넛</span>
+                                    </a>
+                                </div>
+                                <div class="brand_div">
+                                    <a href="#" class="brand_plating brand_img">
+                                        <span class="name">플레:이팅</span>
+                                    </a>
+                                </div>
+                                <div class="brand_div">
+                                    <a href="#" class="brand_anglinus brand_img">
+                                        <span class="name">엔제리너스</span>
+                                    </a>
+                                </div>
+                            </div><!--//brand_wrap-->
+        
+                        </div><!--//side_wrap-->
+                    </div><!--//con_side-->
+                   
+                </div><!--//container-->
+            </div><!--//section-->
+        
+        </section><!--//section-->
+        
+        
+        <footer class="footer">
+            <div class="footer_wrap">
+                <div class="footer_left">
+                    <div class="footer_con">
+                        <ul class="menu_list">
+                            <li class="menu_con">
+                                <a href="#" class="menu_bold">개인정보처리방침 </a>
+                            </li>
+                            <li class="menu_con">
+                                <a href="#" class="menu_nomal">이용약관</a>
+                            </li>
+                            <li class="menu_con">
+                                <a href="#" class="menu_nomal">위치기반서비스 이용약관</a>
+                            </li>
+                            <li class="menu_con">
+                                <a href="#" class="menu_nomal">영상정보 처리기기 운영 및 관리 방침</a>
+                             </li>
+                            <li class="menu_con">
+                                <a href="#" class="menu_nomal">공지사항</a>
+                            </li>
+                            <li class="menu_con">
+                                <a href="#" class="menu_nomal">창업상담</a>
+                            </li>
+                            <li class="menu_con">
+                                <a href="#" class="menu_nomal">설정</a>
+                            </li>
+                        </ul>
+                    </div><!--//footer_con-->
+                    <div class="footer_con">
+                        <div class="footer_tit">가맹점 모집</div><!--footer_tit-->
+                        <div class="footer_box">
+                            <div class="box_wrap">
+                                <a href="#" class="box"><span>롯데리아</span></a>
+                                <a href="#" class="box"><span>엔제리너스</span></a>
+                                <a href="#" class="box"><span>크리스피크림 도넛</span></a>
+                            </div><!--//box_wrap-->
+                        </div><!--//footer_box-->
+                    </div><!--//footer_con-->
+                    <div class="footer_con">
+                        <div class="footer_tit">롯데GRS 사업자정보</div><!--footer_tit-->
+                        <div class="footer_infowrap">
+                            <div class="footer_info">
+                                <div class="info_wrap">
+                                    <span class="info">대표자 : 차우철</span>
+                                    <span class="info">주소 : 서울특별시 금천구 벚꽃로 104 금천 롯데타워 </span>
+                                    <span class="info">사업자번호 : 106-81-23498</span>
+                                </div>
+                            </div><!--//footer_info-->
+                            <div class="footer_info">
+                                <div class="info_wrap">
+                                    <span class="info">통신판매번호 : 용산 06463</span>
+                                    <span class="info">
+                                        <a href="#">사업자정보확인</a>
+                                    </span>
+                                </div>
+                            </div><!--//footer_info-->
+                        </div><!--//footer_infowrap-->
+                        
+                    </div><!--//footer_con-->
+                    <div class="footer_con">
+                        <div class="footer_tit">문의처</div><!--//footer_tit-->
+                        <div class="footer_infowrap">
+                            <div class="footer_info">
+                                <div class="info_wrap">
+                                    <span class="info">일반문의 : 02-709-1114</span>
+                                    <span class="info">매장이용불편사항 : 080-550-0005</span>
+                                    <span class="info">일반쿠폰(기프티엘) : 1644-4276</span>
+                                </div><!--//info_wrap-->                        
+                            </div><!--//footer_info-->
+                            <div class="footer_info">
+                                <div class="info_wrap">
+                                    <span class="info">구독쿠폰(롯데e커머스) : 1522-2552</span>
+                                    <span class="info">LOTTE EATZ앱 문의 : 1600-0552</span>
+                                    <span class="info"><a href="#">고객의소리</a></span>
+                                </div><!--//info_wrap-->    
+                            </div><!--//footer_info-->
+                        </div><!--//footer_infowrap-->
+        
+                    </div><!--//footer_con-->
+                    <div class="copyright">
+                        <div class="copy">copyright © 2023 Lotte GRS co.,ltd all right reserved</div>
+                        <ul class="icon_wrap">
+                            <li class="icon"><a href="#" class="facebook"><span class="name">페이스북</span></a></li>
+                            <li class="icon"><a href="#" class="instagram"></a><span class="name">인스타그램</span></li>
+                            <li class="icon"><a href="#" class="twitter"></a><span class="name">트위터</span></li>
+                        </ul><!--//icon_wrap-->
+                    </div><!--//copyright-->
+                </div><!--//footer_left-->
+        
+                <div class="footer_right">
+                    <button class="site_button">
+                        <span class="family_company">Family Site</span>
+                    </button>
+                </div><!--//footer_right-->
+            </div><!--//footer_wrap-->
+        
+        </footer><!--//footer-->
+        
+        <div class="one_button">       
+            <button class="up goToUp hide" >
+                <div class="up_div">
+                    <i class="up_icon"></i>
+                </div><!--//up_div-->
+                
+            </button><!--//up-->
+        
+            <button class="one">
+                <div class="yellow">
+                    <i class="one_icon">
+                        <span class="barcode"></span>
+                    </i>
+                </div>
+            </button><!--//one-->
+        </div><!--//one_button-->
+        
+        <div class="m_menu">
+            <div class="menu_list">
+                <div class="menu_one">
+                    <a href="#" class="menu_icon active">
+                        <i class="m_icon home_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="28">
+                                <g id="ic_dock_home_sel">
+                                    <g id="합치기_182" data-name="합치기 182" transform="translate(-20437.436 -12595.436)" fill="#fff">
+                                        <path d="M 20447.185546875 12621.1865234375 L 20445.435546875 12621.185546875 C 20445.33203125 12621.185546875 20445.234375 12621.1826171875 20445.138671875 12621.1767578125 L 20445.099609375 12621.173828125 L 20445.05859375 12621.173828125 L 20443.4375 12621.173828125 C 20441.921875 12621.173828125 20440.6875 12619.9404296875 20440.6875 12618.423828125 L 20440.6875 12616.5830078125 L 20440.6875 12616.5576171875 L 20440.685546875 12616.533203125 C 20440.685546875 12616.5009765625 20440.685546875 12616.46875 20440.685546875 12616.435546875 L 20440.685546875 12609.435546875 C 20440.685546875 12609.4033203125 20440.685546875 12609.3701171875 20440.685546875 12609.337890625 L 20440.6875 12609.3134765625 L 20440.6875 12609.2880859375 L 20440.6875 12608.013671875 C 20440.6875 12606.939453125 20441.205078125 12605.8427734375 20441.974609375 12605.2841796875 L 20441.978515625 12605.28125 L 20441.982421875 12605.27734375 L 20449.33984375 12599.841796875 C 20450.12109375 12599.291015625 20450.826171875 12599.0224609375 20451.49609375 12599.0224609375 C 20452.158203125 12599.0224609375 20452.794921875 12599.275390625 20453.5 12599.8193359375 L 20453.50390625 12599.822265625 L 20453.5078125 12599.8251953125 L 20460.626953125 12605.2216796875 L 20460.6640625 12605.2490234375 L 20460.701171875 12605.2734375 C 20461.58984375 12605.8515625 20462.1875 12606.953125 20462.1875 12608.013671875 L 20462.1875 12618.423828125 C 20462.1875 12619.9404296875 20460.953125 12621.173828125 20459.4375 12621.173828125 L 20457.814453125 12621.173828125 L 20457.7734375 12621.173828125 L 20457.734375 12621.1767578125 C 20457.640625 12621.1826171875 20457.5390625 12621.185546875 20457.435546875 12621.185546875 L 20455.685546875 12621.185546875 L 20455.685546875 12616.435546875 C 20455.685546875 12615.1953125 20454.67578125 12614.185546875 20453.435546875 12614.185546875 L 20449.435546875 12614.185546875 C 20448.1953125 12614.185546875 20447.185546875 12615.1953125 20447.185546875 12616.435546875 L 20447.185546875 12621.1865234375 Z" stroke="none"></path>
+                                        <path class="icon_fill" d="M 20445.935546875 12619.935546875 L 20445.935546875 12616.435546875 C 20445.935546875 12614.505859375 20447.505859375 12612.935546875 20449.435546875 12612.935546875 L 20453.435546875 12612.935546875 C 20455.365234375 12612.935546875 20456.935546875 12614.505859375 20456.935546875 12616.435546875 L 20456.935546875 12619.935546875 L 20457.435546875 12619.935546875 C 20457.513671875 12619.935546875 20457.5859375 12619.93359375 20457.654296875 12619.9287109375 L 20457.734375 12619.923828125 L 20459.4375 12619.923828125 C 20460.263671875 12619.923828125 20460.9375 12619.2509765625 20460.9375 12618.423828125 L 20460.9375 12608.013671875 C 20460.9375 12607.3681640625 20460.560546875 12606.6728515625 20460.01953125 12606.3212890625 L 20459.9453125 12606.2724609375 L 20459.873046875 12606.2177734375 L 20452.736328125 12600.80859375 C 20452.11328125 12600.328125 20451.73046875 12600.2724609375 20451.49609375 12600.2724609375 C 20451.095703125 12600.2724609375 20450.62890625 12600.4638671875 20450.0703125 12600.8564453125 L 20442.708984375 12606.2958984375 C 20442.326171875 12606.57421875 20441.9375 12607.2529296875 20441.9375 12608.013671875 L 20441.935546875 12609.3828125 C 20441.935546875 12609.400390625 20441.935546875 12609.41796875 20441.935546875 12609.435546875 L 20441.935546875 12616.435546875 C 20441.935546875 12616.453125 20441.935546875 12616.470703125 20441.935546875 12616.4873046875 L 20441.9375 12616.5830078125 L 20441.9375 12618.423828125 C 20441.9375 12619.2509765625 20442.611328125 12619.923828125 20443.4375 12619.923828125 L 20445.138671875 12619.923828125 L 20445.21875 12619.9287109375 C 20445.287109375 12619.93359375 20445.357421875 12619.935546875 20445.435546875 12619.935546875 L 20445.935546875 12619.935546875 M 20448.435546875 12622.4365234375 L 20445.435546875 12622.435546875 C 20445.302734375 12622.435546875 20445.1796875 12622.431640625 20445.05859375 12622.423828125 L 20443.4375 12622.423828125 C 20441.232421875 12622.423828125 20439.4375 12620.6298828125 20439.4375 12618.423828125 L 20439.4375 12616.5830078125 C 20439.435546875 12616.5341796875 20439.435546875 12616.4853515625 20439.435546875 12616.435546875 L 20439.435546875 12609.435546875 C 20439.435546875 12609.38671875 20439.435546875 12609.3369140625 20439.4375 12609.2880859375 L 20439.4375 12608.013671875 C 20439.4375 12606.53515625 20440.14453125 12605.0673828125 20441.240234375 12604.2724609375 L 20448.607421875 12598.8291015625 C 20449.611328125 12598.1181640625 20450.556640625 12597.7724609375 20451.49609375 12597.7724609375 C 20452.4375 12597.7724609375 20453.341796875 12598.1181640625 20454.263671875 12598.8291015625 L 20461.3828125 12604.2255859375 C 20462.630859375 12605.037109375 20463.4375 12606.5244140625 20463.4375 12608.013671875 L 20463.4375 12618.423828125 C 20463.4375 12620.6298828125 20461.642578125 12622.423828125 20459.4375 12622.423828125 L 20457.814453125 12622.423828125 C 20457.693359375 12622.431640625 20457.56640625 12622.435546875 20457.435546875 12622.435546875 L 20454.435546875 12622.435546875 L 20454.435546875 12616.435546875 C 20454.435546875 12615.8837890625 20453.986328125 12615.435546875 20453.435546875 12615.435546875 L 20449.435546875 12615.435546875 C 20448.884765625 12615.435546875 20448.435546875 12615.8837890625 20448.435546875 12616.435546875 L 20448.435546875 12622.4365234375 Z" stroke="none" fill="#ccc"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </i>
+                    </a>
+                </div><!--//menu_one-->
+                <div class="menu_one">
+                    <a href="#" class="menu_icon">
+                        <i class="m_icon store_icon">
+                            <svg id="ic_dock_md_def" xmlns="http://www.w3.org/2000/svg" width="26" height="28">
+                                <g id="그룹_910" class="icon_fill" data-name="그룹 910" transform="translate(1 3)" fill="#ccc">
+                                    <path id="빼기_57" data-name="빼기 57" d="M20807,12498h-11a6,6,0,0,1-6-6v-8h2.5l0,2.5v5.5a3.5,3.5,0,0,0,3.5,3.5h11a3.5,3.5,0,0,0,3.5-3.5v-8h2.5v8A6.007,6.007,0,0,1,20807,12498Z" transform="translate(-20788.998 -12474)"></path>
+                                    <g id="사각형_5428" class="icon_stroke" data-name="사각형 5428" transform="translate(0 -1)" fill="none" stroke="#ccc" stroke-width="2.5">
+                                        <path d="M5,0h5a0,0,0,0,1,0,0V9a5,5,0,0,1-5,5H5A5,5,0,0,1,0,9V5A5,5,0,0,1,5,0Z" stroke="none"></path>
+                                        <path d="M5,1.25H8.75a0,0,0,0,1,0,0V9A3.75,3.75,0,0,1,5,12.75H5A3.75,3.75,0,0,1,1.25,9V5A3.75,3.75,0,0,1,5,1.25Z" fill="none"></path>
+                                    </g>
+                                    <g id="사각형_5429" class="icon_stroke" data-name="사각형 5429" transform="translate(7.5 -1)" fill="none" stroke="#ccc" stroke-width="2.5">
+                                        <path d="M0,0H10a0,0,0,0,1,0,0V9a5,5,0,0,1-5,5H5A5,5,0,0,1,0,9V0A0,0,0,0,1,0,0Z" stroke="none"></path>
+                                        <path d="M1.25,1.25h7.5a0,0,0,0,1,0,0V9A3.75,3.75,0,0,1,5,12.75H5A3.75,3.75,0,0,1,1.25,9V1.25A0,0,0,0,1,1.25,1.25Z" fill="none"></path>
+                                    </g>
+                                    <g id="사각형_5430" class="icon_stroke" data-name="사각형 5430" transform="translate(15 -1)" fill="none" stroke="#ccc" stroke-width="2.5">
+                                        <path d="M0,0H5a5,5,0,0,1,5,5V9a5,5,0,0,1-5,5H5A5,5,0,0,1,0,9V0A0,0,0,0,1,0,0Z" stroke="none"></path>
+                                        <path d="M1.25,1.25H5A3.75,3.75,0,0,1,8.75,5V9A3.75,3.75,0,0,1,5,12.75H5A3.75,3.75,0,0,1,1.25,9V1.25A0,0,0,0,1,1.25,1.25Z" fill="none"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </i>
+                    </a>
+                </div><!--//menu_one-->
+                <div class="menu_one order">
+                        <i class="order_icon">
+                            <button class="order_button">
+                                <i class="order_menu">주문하기</i>
+                            </button>
+                        </i>    
+                </div><!--//menu_one-->
+                <div class="menu_one">
+                    <a href="#" class="menu_icon">
+                        <i class="m_icon mypage_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="28">
+                                <g id="ic_dock_my_def" transform="translate(-50 -748)">
+                                    <g id="그룹_911" data-name="그룹 911" transform="translate(1 -1)">
+                                        <g id="타원_356" class="icon_stroke" data-name="타원 356" transform="translate(56 750)" fill="none" stroke="#ccc" stroke-width="2.5">
+                                            <circle cx="6.5" cy="6.5" r="6.5" stroke="none"></circle>
+                                            <circle cx="6.5" cy="6.5" r="5.25" fill="none"></circle>
+                                        </g>
+                                        <g id="패스_14441" data-name="패스 14441" transform="translate(51 764.5)" fill="none">
+                                            <path d="M11.5,0C17.892,0,23,1.24,23,5.5S17.4,11,11.5,11,0,9.76,0,5.5,5.108,0,11.5,0Z" stroke="none"></path>
+                                            <path class="icon_fill" d="M 11.5 2.5 C 8.30226993560791 2.5 5.877519607543945 2.826040267944336 4.2930908203125 3.469069957733154 C 3.625450134277344 3.740029811859131 3.123510360717773 4.067480087280273 2.841510772705078 4.416009902954102 C 2.682510375976562 4.61253023147583 2.5 4.913340091705322 2.5 5.5 C 2.5 5.906070232391357 2.5 6.751029968261719 4.455070495605469 7.521530151367188 C 6.079290390014648 8.161649703979492 8.515390396118164 8.5 11.5 8.5 C 14.48460960388184 8.5 16.92070960998535 8.161649703979492 18.54492950439453 7.521530151367188 C 20.5 6.751029968261719 20.5 5.906070232391357 20.5 5.5 C 20.5 4.913340091705322 20.31748962402344 4.61253023147583 20.15848922729492 4.416009902954102 C 19.87648963928223 4.067480087280273 19.37454986572266 3.740029811859131 18.7069091796875 3.469069957733154 C 17.12248039245605 2.826040267944336 14.69773006439209 2.5 11.5 2.5 M 11.5 0 C 17.89210891723633 0 23 1.240209579467773 23 5.5 C 23 9.759790420532227 17.39755058288574 11 11.5 11 C 5.602449417114258 11 0 9.759790420532227 0 5.5 C 0 1.240209579467773 5.107889175415039 0 11.5 0 Z" stroke="none" fill="#ccc"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </i>
+                    </a>
+                </div><!--//menu_one-->
+                <div class="menu_one">
+                    <a href="#" class="menu_icon">
+                        <i class="m_icon allmenu_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26">
+                                <g id="ic_dock_menu_def" transform="translate(-50 -748)">
+                                    <rect id="사각형_4524" data-name="사각형 4524" width="26" height="26" transform="translate(50 748)" fill="none"></rect>
+                                    <g id="그룹_912" data-name="그룹 912" transform="translate(0 -0.5)">
+                                        <line id="선_29" class="icon_stroke" data-name="선 29" x2="20" transform="translate(54 753.5)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2.5"></line>
+                                        <line id="선_30" class="icon_stroke" data-name="선 30" x2="20" transform="translate(54 762.5)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2.5"></line>
+                                        <line id="선_31" class="icon_stroke" data-name="선 31" x2="20" transform="translate(54 771.5)" fill="none" stroke="#ccc" stroke-linecap="round" stroke-width="2.5"></line>
+                                    </g>
+                                </g>
+                            </svg>
+                        </i>
+                    </a>
+                </div><!--//menu_one-->
+            </div><!--//menu_list-->
+        </div><!--//m_menu-->
+        
+    </div><!--//body_wrap-->
+
+<script>   
+
+  
+//Javascript
+var lastScrollTop = 0;
+var delta = 5;
+var fixBox = document.querySelector('.m_header');
+var fixBoxHeight = fixBox.offsetHeight;
+var didScroll;
+var body_wrap = document.querySelector(".body_wrap");
+
+//스크롤 이벤트 
+window.onscroll = function(e) {
+    didScroll = true;
+};
+
+//0.25초마다 스크롤 여부 체크하여 스크롤 중이면 hasScrolled() 호출
+setInterval(function(){
+    if(didScroll){
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled(){
+    var nowScrollTop = window.scrollY;
+    var scrollTop = $(window).scrollTop();
+    if(Math.abs(lastScrollTop - nowScrollTop) <= delta){
+        return;
+    }
+    if(nowScrollTop > lastScrollTop && nowScrollTop > fixBoxHeight){
+        //스크롤 내림
+        fixBox.classList.add('down'); fixBox.classList.remove('up');
+       body_wrap.classList.add('down'); body_wrap.classList.remove('up');
+       body_wrap.classList.remove('top_header');
+
+    }else{              
+        if(scrollTop == 0){
+            console.log(scrollTop);
+            body_wrap.classList.add('top_header');
+            body_wrap.classList.remove('up');
+        }else if(nowScrollTop + window.innerHeight < document.body.offsetHeight){
+            //스크롤 올림
+            fixBox.classList.add('up'); fixBox.classList.remove('down');
+           body_wrap.classList.remove("down"); body_wrap.classList.add("up");
+        }
+    }
+    lastScrollTop = nowScrollTop;
+}
+
+
+</script>
+
+<script>
+
+    //메뉴 내려오기
+    var $header = $("#header");
+    var $header_menu = $(".header_menu");
+    var $submenu = $(".submenu");
+    var $header_bottom = $(".header_bottom");
+
+    $(function(){
+        $header_menu.mouseover(function(){
+            $("#header").addClass("sticky").find(".submenu").addClass("sticky");
+    });
+        $header.mouseleave(function(){
+            $("#header").removeClass("sticky").find(".submenu").removeClass("sticky");
+        });
+    });
+
+
+    // conside_wrap active 붙이기
+    var $delivery =  $(".left_wrap .conwrap .a_delivery");
+    var $pickup =  $(".left_wrap .conwrap .a_pickup");
+    $(function(){
+        $delivery.click(function(){
+            $delivery.addClass("active"),
+            $pickup.removeClass("active");
+        });
+        $pickup.click(function(){
+            $pickup.addClass("active"),
+            $delivery.removeClass("active");
+        });
+    });
+
+ //con_aside aside_wrap 고정
+
+var $footer = $(".footer");
+var $body = $("body"); //본문 요소
+var footerHight = $footer.outerHeight(true); //footer높이
+var $aside = $(".con_aside .aside_wrap");
+
+$(window).scroll(function(){    
+    $aside.addClass("aside_scroll"),
+
+    $($aside).css("margin-top",Math.max(-130,0 - $(this).scrollTop()));
+    $($aside).css("top",Math.max(125,0 - $(this).scrollTop()));
+    $($aside).css("bottom",Math.max(130,0 - $(this).scrollTop()));
+   
+    if($(this).scrollTop() > 2650) {     
+      //$aside.removeClass("aside_scroll"),
+       
+      
+      $($aside).css("margin-top",Math.max(-270,0 - $(this).scrollTop()));
+  
+    }
+    
+});
+
+
+        //브랜드별 인기메뉴
+        var $sub = $(".con_div.box5 .con_sub .con_submenu"); 
+        var $menu = $(".brand_list");
+        $menu.hide().eq(0).show();
+        
+        $sub.click(function(e){
+            e.preventDefault();
+            var $target = $(this);
+            var $index = $target.index();
+
+            $sub.removeClass("active");
+            $target.addClass("active");
+
+            $menu.css("display","none");
+
+            $menu.eq($index).css("display","block");
+        });
+    
+
+        //집으로 받는 잇츠MD
+       var $mdsub =  $(".con_div.box6 .con_sub .con_submenu");
+       var $box = $(".con_div.box6 .box_swiper");
+       $box.hide().eq(0).show();
+
+       $mdsub.click(function(e){
+        e.preventDefault();
+        var $mdtarget = $(this);
+        var $mdindex = $mdtarget.index();
+
+        $mdsub.removeClass("active");
+        $mdtarget.addClass("active");
+
+        $box.css("display","none");
+        $box.eq($mdindex).css("display","block");
+
+       });
+
+
+       //맨위로 올라가기
+       $(window).scroll(function(){
+
+        if($(this).scrollTop() > 100){
+            $(".up.goToUp").show();
+            $(".up.goToUp").removeClass("hide").addClass("active");
+
+        }else{
+            $(".up.goToUp").fadeOut();
+            $(".up.goToUp").removeClass("active").addClass("hide");
+        }
+
+       });
+       $(".up").click(function(){
+           // $('html, body').animate({scrollTop:0},'1000');        
+         // $('html, body').scrollTop({behavior:'slow'});
+         window.scrollTo({top:0, behavior:"smooth"});
+       });
+
+
+</script>
+
+  <!-- Initialize Swiper --><!--//첫번째 swiper-->
+  <script>
+
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".con_swiper .swiper-button-next",
+        prevEl: ".con_swiper .swiper-button-prev",
+      },
+     
+     
+});
+  </script>
+
+
+   <!-- Initialize Swiper --> <!--//두번째 swiper-->
+   <script>
+
+      var swiper = new Swiper(".secondSwiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 10, //슬라이드 사이 여백
+        freeMode: true,
+        slidesOffsetAfter : 0,
+        navigation: {
+            nextEl: ".right_swiper .swiper-button-next.swiper-button-next-second",
+            prevEl: ".right_swiper .swiper-button-prev.swiper-button-prev-second",
+          },
+                
+      });
+  </script>
+  <!--con_box1-->
+  <script>
+    var swiper = new Swiper(".box1_Swiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".box1_Swiper .swiper-button-next.swiper-button-next-box1",
+            prevEl: ".box1_Swiper .swiper-button-prev.swiper-button-prev-box1",
+      },
+    });
+  </script>
+
+  <!--con_box2-->
+  <script>
+    var swiper = new Swiper(".box2_Swiper", {
+    slidesPerView: 'auto',
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".couppon_box .swiper-button-next.swiper-button-next-box2",
+        prevEl: ".couppon_box .swiper-button-prev.swiper-button-prev-box2",
+      },
+    });
+  </script>
+
+<!--con_box3-->
+  <script>
+    var swiper = new Swiper(".box3_Swiper", {
+    slidesPerView: 'auto',
+    spaceBetween: 10,
+    freeMode: true,
+    navigation: {
+        nextEl: ".box_swiper .swiper-button-next.swiper-button-next-box3",
+        prevEl: ".box_swiper .swiper-button-prev.swiper-button-prev-box3",
+        },
+    });
+  </script>
+
+  <!--con_box5-->
+  <script>
+    var swiper = new Swiper(".box5-1_Swiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 10,
+      freeMode: true,
+      slidesOffsetBefore :3, // 슬라이드 시작 부분 여백     
+     navigation: {
+        nextEl: ".box_swiper.krispy .swiper-button-next.swiper-button-next-krispybox6",
+        prevEl: ".box_swiper.krispy .swiper-button-prev.swiper-button-prev-krispybox6",
+        },
+    });
+  </script>
+
+  <script>
+    var swiper = new Swiper(".box5-2_Swiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        freeMode: true,
+        slidesOffsetBefore :3, // 슬라이드 시작 부분 여백     
+       navigation: {
+          nextEl: ".box_swiper.anglinus .swiper-button-next.swiper-button-next-anglinusbox6",
+          prevEl: ".box_swiper.anglinus .swiper-button-prev.swiper-button-prev-anglinusbox6",
+          },
+      });
+  </script>
+  <script>
+    var swiper = new Swiper(".box5-3_Swiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        freeMode: false,   
+        slidesOffsetBefore :3, // 슬라이드 시작 부분 여백 
+       navigation: {
+          nextEl: ".box_swiper.rotteria .swiper-button-next.swiper-button-next-rotteriabox6",
+          prevEl: ".box_swiper.rotteria .swiper-button-prev.swiper-button-prev-rotteriabox6",
+          },
+      });
+  </script>
+
+  <script>
+    var swiper = new Swiper(".box7_Swiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        freeMode: false,   
+        slidesOffsetBefore :3, // 슬라이드 시작 부분 여백 
+      
+       navigation: {
+          nextEl: ".box_swiper .swiper-button-next.swiper-button-next-box7",
+          prevEl: ".box_swiper .swiper-button-prev.swiper-button-prev-box7",
+          },
+      });
+  </script>
+<!--box8-->
+  <script>
+    var swiper = new Swiper(".box8_Swiper", {
+      slidesPerView: 'auto',
+      spaceBetween:10,
+      freeMode: true,
+      pagination: {
+        el: ".tv_swiper .swiper-pagination.pgbox8",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".tv_swiper .swiper-button-next.swiper-button-next-box8",
+        prevEl: ".tv_swiper .swiper-button-prev.swiper-button-prev-box8",
+        },
+      
+    });
+  </script>
+</body>
+</html>
