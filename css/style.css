@@ -1023,7 +1023,7 @@
     .m_header.up .m_header_right .m_coupon .coupon {background: url(../img/comm_ico_coupon.svg) no-repeat;}
     .m_header.up .m_header_right .m_cart .cart {background: url(../img/comm_ico_cart.svg) no-repeat;}
 
-    .m_header.up .eatz{background: url(../img/comm_ico_eatz_mile_mint.svg);}
+    .m_header.up .eatz{width:22px; height:22px; background: url(../img/comm_ico_eatz_mile_mint.svg);}
     .m_header.up .m_header_right .m_alarm .alarm {}
     .m_header.up .m_header_right .m_coupon .coupon {}
     .m_header.up .m_header_right .m_cart .cart {}
