@@ -159,12 +159,12 @@
 
 
 .swiper-button-prev:after{
-    /*background: url(/img/ui_ico_swiper_arr_h40.svg) no-repeat; */
+    /*background: url(../img/ui_ico_swiper_arr_h40.svg) no-repeat; */
     font-size: 0.7rem ; text-align: center;
     font-weight: 600; margin-left: -2px;
 }
 .swiper-button-next:after { 
- /* background: url(/img/ui_ico_swiper_arr_h40.svg) no-repeat; */
+ /* background: url(../img/ui_ico_swiper_arr_h40.svg) no-repeat; */
   font-size: 0.7rem ; text-align: center;
   font-weight: 600;  margin-right: -2px;
 }
@@ -403,7 +403,7 @@
 }
 .coupponbox_wrap .couppon_down .down_img {
     display: block; width:20px; height: 20px; position: absolute;
-     background: url(/img/comm_coupon_download.svg) no-repeat;
+     background: url(../img/comm_coupon_download.svg) no-repeat;
     background-size: cover;
 }
 
@@ -994,7 +994,7 @@
    .body_wrap.top_header .m_header .eatzmail > span::after {
         position: absolute; content: ""; width:10px; height: 10px;
         top:6px;
-        background:url(/img/comm_ico_more_view_arr_white.svg)0 0 no-repeat;
+        background:url(../img/comm_ico_more_view_arr_white.svg)0 0 no-repeat;
         background-size: cover; margin-left: 0;}
 
     .m_header .m_header_right {z-index: 3; margin-left: auto; margin-right: 46px; }
@@ -1005,11 +1005,11 @@
 
 
     /*이미지*/
-    .body_wrap.top_header .m_header .eatz {background: url(/img/comm_ico_eatz_mile_white.svg) no-repeat; 
+    .body_wrap.top_header .m_header .eatz {background: url(../img/comm_ico_eatz_mile_white.svg) no-repeat; 
         width:22px; height: 22px; display: inline-block;}
-    .body_wrap.top_header .m_header .m_header_right .m_alarm .alarm {background: url(/img/comm_ico_alarm_white.svg) no-repeat;}
-    .body_wrap.top_header .m_header .m_header_right .m_coupon .coupon {background: url(/img/comm_ico_coupon_white.svg) no-repeat;}
-    .body_wrap.top_header .m_header .m_header_right .m_cart .cart {background: url(/img/comm_ico_cart_white.svg) no-repeat;}
+    .body_wrap.top_header .m_header .m_header_right .m_alarm .alarm {background: url(../img/comm_ico_alarm_white.svg) no-repeat;}
+    .body_wrap.top_header .m_header .m_header_right .m_coupon .coupon {background: url(../img/comm_ico_coupon_white.svg) no-repeat;}
+    .body_wrap.top_header .m_header .m_header_right .m_cart .cart {background: url(../img/comm_ico_cart_white.svg) no-repeat;}
 
 
     /*스크롤 up*/
@@ -1017,13 +1017,13 @@
        backdrop-filter: blur(20px);}
     .body_wrap.up .m_header.up .eatzmail > span {color:#000;}
     .body_wrap.up .m_header.up .eatzmail > span::after {
-        background: url(/img/comm_ico_more_view_arr_lg.svg) no-repeat;
+        background: url(../img/comm_ico_more_view_arr_lg.svg) no-repeat;
     }
-    .m_header.up .m_header_right .m_alarm .alarm {background: url(/img/comm_ico_alarm.svg) no-repeat;}
-    .m_header.up .m_header_right .m_coupon .coupon {background: url(/img/comm_ico_coupon.svg) no-repeat;}
-    .m_header.up .m_header_right .m_cart .cart {background: url(/img/comm_ico_cart.svg) no-repeat;}
+    .m_header.up .m_header_right .m_alarm .alarm {background: url(../img/comm_ico_alarm.svg) no-repeat;}
+    .m_header.up .m_header_right .m_coupon .coupon {background: url(../img/comm_ico_coupon.svg) no-repeat;}
+    .m_header.up .m_header_right .m_cart .cart {background: url(../img/comm_ico_cart.svg) no-repeat;}
 
-    .m_header.up .eatz{background: url(/img/comm_ico_eatz_mile_mint.svg);}
+    .m_header.up .eatz{background: url(../img/comm_ico_eatz_mile_mint.svg);}
     .m_header.up .m_header_right .m_alarm .alarm {}
     .m_header.up .m_header_right .m_coupon .coupon {}
     .m_header.up .m_header_right .m_cart .cart {}
@@ -1076,16 +1076,16 @@
 .event_box .box.angelinus .box_icon{background: rgba(218, 214, 203);}
 .event_box .box.angelinus .box_icon::after {
     content: ''; position: absolute; width:100%; height: 100%;
-    background: url(/img/comm_ico_brand_angelinus.png) no-repeat; background-size: cover; }
+    background: url(../img/comm_ico_brand_angelinus.png) no-repeat; background-size: cover; }
 .event_box .box.krispy .box_icon {background: rgba(75,177,116);}
 .event_box .box.krispy .box_icon::after {
     content: ''; position: absolute; width:100%; height: 100%;;
-    background: url(/img/comm_ico_brand_krispy.png)no-repeat; background-size: cover;
+    background: url(../img/comm_ico_brand_krispy.png)no-repeat; background-size: cover;
 }
 .event_box .box.rotteria .box_icon {background: rgba(229,69,56);}
 .event_box .box.rotteria .box_icon::after {
     content: ''; position: absolute; width:100%; height: 100%;
-    background: url(/img/comm_ico_brand_lotteria.png)no-repeat; background-size: cover;
+    background: url(../img/comm_ico_brand_lotteria.png)no-repeat; background-size: cover;
 }
 
 /* 이벤트 박스 active */
@@ -1251,7 +1251,7 @@
 
 .m_menu .menu_list .menu_one .menu_icon .home_icon {}
 .m_menu .menu_list .menu_one .menu_icon.active .home_icon {
-    background: url(/img/comm_dock_home_sel.svg); background-size: cover;}
+    background: url(../img/comm_dock_home_sel.svg); background-size: cover;}
 
 .body_wrap.up .m_menu {transition: all 0.2s;}
 .body_wrap.down .m_menu {transition: all 0.2s; transform: translateY(calc(100% + 5px));}
