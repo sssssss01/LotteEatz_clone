@@ -1143,6 +1143,8 @@
 /* con_box3*/
 .con_div {margin-top:-20px;}
 .con_box .con_div .img_back {top:35px;}
+.swiper-button-prev.swiper-button-prev-box3, 
+.swiper-button-next.swiper-button-next-box3 {display: none;}
 
 /* con_box4 */
 .con_box .con_div.box4 .con_tit {margin-bottom: 20px;}
