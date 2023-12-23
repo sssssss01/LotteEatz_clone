@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="24" viewBox="0 0 38 24">
+  <g id="ic_nv_barcode_H24_w" transform="translate(-32 -57)">
+    <rect id="사각형_4319" data-name="사각형 4319" width="38" height="24" transform="translate(32 57)" fill="none"/>
+    <rect id="사각형_5801" data-name="사각형 5801" width="28" height="22" rx="4" transform="translate(37 58)" fill="#fff"/>
+    <g id="그룹_3870" data-name="그룹 3870" transform="translate(-2 -1)">
+      <rect id="사각형_4287" data-name="사각형 4287" width="2" height="12" rx="1" transform="translate(44 64)" fill="#00a5b9"/>
+      <rect id="사각형_4287-2" data-name="사각형 4287" width="2" height="12" rx="1" transform="translate(48 64)" fill="#00a5b9"/>
+      <rect id="사각형_4287-3" data-name="사각형 4287" width="2" height="12" rx="1" transform="translate(52 64)" fill="#00a5b9"/>
+      <rect id="사각형_4287-4" data-name="사각형 4287" width="2" height="12" rx="1" transform="translate(56 64)" fill="#00a5b9"/>
+      <rect id="사각형_5802" data-name="사각형 5802" width="2" height="12" rx="1" transform="translate(60 64)" fill="#00a5b9"/>
+    </g>
+    <line id="선_103" data-name="선 103" x2="34" transform="translate(34 69)" fill="none" stroke="#ef3d2e" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>
