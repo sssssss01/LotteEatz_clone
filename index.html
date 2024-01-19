@@ -2274,6 +2274,8 @@ function hasScrolled(){
         });
     });
 
+
+    
  //con_aside aside_wrap 고정
 
 var $footer = $(".footer");
@@ -2281,20 +2283,45 @@ var $body = $("body"); //본문 요소
 var footerHight = $footer.outerHeight(true); //footer높이
 var $aside = $(".con_aside .aside_wrap");
 
+
+const $fixedBox = $('.con_aside .aside_wrap'); // 고정될 박스 요소
+const topMargin = 1000; // 고정될 때의 상단, 하단 여백
+const breakpoint = 1200; // 반응형 디자인의 기준 너비
+
+// 고정 박스의 초기 상단 위치
+let initialTop = $fixedBox.offset().top;
+const scrollTop = $(window).scrollTop(); // 현재 스크롤 위치
+const footerHeight = $footer.outerHeight(true); // footer의 높이
+const bodyHeight = $body.outerHeight(true); // body의 높이
+const availableHeight = 
+        bodyHeight - footerHeight - $fixedBox.outerHeight(true) - initialTop;
+
+
 $(window).scroll(function(){    
-    $aside.addClass("aside_scroll"),
+      $aside.addClass("aside_scroll");
 
     $($aside).css("margin-top",Math.max(-130,0 - $(this).scrollTop()));
-    $($aside).css("top",Math.max(125,0 - $(this).scrollTop()));
-    $($aside).css("bottom",Math.max(130,0 - $(this).scrollTop()));
+
+  //  $($aside).css("bottom",Math.max(130,0 - $(this).scrollTop()));
    
-    if($(this).scrollTop() > 2650) {     
-      //$aside.removeClass("aside_scroll"),
+  //지금 스크롤이 2650보다 크다면
+    if($(this).scrollTop() >= 2650) {     
+        if (availableHeight + initialTop - topMargin > scrollTop) {
+         //  $fixedBox.css({ 'position': 'fixed', 'top': -50 });
+
+         $fixedBox.css({ 'position': 'absolute', 'bottom': 100});
+         $fixedBox.css({ "top":'inherit'});
+
+        } 
        
-      
-      $($aside).css("margin-top",Math.max(-270,0 - $(this).scrollTop()));
-  
-    }
+      //margin-top을 -270을 줘야함
+      $($aside).css("margin-top",Math.max( -270, 0 - $(this).scrollTop()));
+      //$($aside).css("margin-top",Math.max( 'box7', 0 - $(this).scrollTop()));
+
+    }else {
+       // $fixedBox.css({ 'position': 'absolute', 'top': `0` });
+        $fixedBox.css({ 'position': 'fixed', 'top': 150 });
+}
     
 });
 
