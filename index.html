@@ -2306,8 +2306,7 @@ $(window).scroll(function(){
    
   //지금 스크롤이 2650보다 크다면
     if($(this).scrollTop() >= 2650) {     
-        if (availableHeight + initialTop - topMargin > scrollTop) {
-         //  $fixedBox.css({ 'position': 'fixed', 'top': -50 });
+        if (availableHeight + initialTop - topMargin > scrollTop) {      
 
          $fixedBox.css({ 'position': 'absolute', 'bottom': 100});
          $fixedBox.css({ "top":'inherit'});
@@ -2316,10 +2315,10 @@ $(window).scroll(function(){
        
       //margin-top을 -270을 줘야함
       $($aside).css("margin-top",Math.max( -270, 0 - $(this).scrollTop()));
-      //$($aside).css("margin-top",Math.max( 'box7', 0 - $(this).scrollTop()));
+     
 
     }else {
-       // $fixedBox.css({ 'position': 'absolute', 'top': `0` });
+      
         $fixedBox.css({ 'position': 'fixed', 'top': 150 });
 }
     
