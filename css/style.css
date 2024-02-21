@@ -1209,15 +1209,14 @@
 .tv_swiper .swiper-button-prev.box8 {display: none;}
 
 .pag.pgbox8 {position: absolute; left:49%; }
-.pag.pgbox8 .box-pag { }
-.swiper-pagination.pgbox8 {font-size: 11px; bottom: -10px; 
+
+.swiper-pagination.pgbox8 {font-size: 12px; bottom: -10px; left:-12px;
     color:#fff;  width:auto; display: flex; flex-direction: row; letter-spacing: 3px;
-    padding: 2px 7px 5px 9px; border-radius: 30px; text-align: center;
-    backdrop-filter: blur(20px) brightness(87%);}
+    padding: 2px 11px 4px 9px; border-radius: 30px; text-align: center;
+    backdrop-filter: blur(20px) brightness(83%);}
 
-
-
-.pag.pgbox8 .box-pag .swiper-pagination-total {opacity: 0.5;}
+.pag.pgbox8 .swiper-pagination-current {padding-right: 3px;}
+.pag.pgbox8 .swiper-pagination-total {padding-left: 0px;}
 
 .footer {display: none;}
 
